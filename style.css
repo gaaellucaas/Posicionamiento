@@ -9,8 +9,8 @@ background-color: white;
 }
 .rectangulo-1{
 
-width: 460px;
-height: 190px;
+width: 465px;
+height: 195px;
 border-radius: 8px;
 background-color: grey;
 border:5px solid darkgrey;
@@ -24,7 +24,8 @@ height: 170px;
 background: black;
 margin-bottom: 15px;
 align-items: center;
-
+margin-top: 10px;
+margin-left: 10px;
 }
 
 .paneldireccion{
@@ -62,4 +63,34 @@ border-right: thin black;}
 .fderecha { left: 4.5em;
 border-left: thin black;}
 
-.partedelmedio
+.medio{
+position:absolute;
+top: 0;
+left: 0;
+right: 0;
+bottom: 0;
+margin: auto;
+width: 150px;
+height: 150px;
+z-index: 10;
+border-radius: 5px;
+border: thin solid red;
+}
+
+.franja{
+  background-color: grey;
+  width: 150px;
+  height: 25px;
+  position: absolute;
+}
+
+.funo{
+top: 1em;
+}
+.fdos{
+top: 3.5em;
+}
+
+.ftres{
+top: 8.3em;
+}
