@@ -117,12 +117,12 @@ border-radius: 4px;
 }
 
 .LETRA{
-position: absolute;
+position:relative;
 font-size: 15px;
 z-index: 15;
 top: 3.8em;
 color: black;
-left: 0;
+left: 5.5px;
 }
 
 .LETRA2{
@@ -131,14 +131,14 @@ font-size: 15px;
 z-index: 15;
 top:3.8em;
 color: black;
-right:0;
+right:5.5px;
 
 }
 
 .circulo{
 background-color: black;
 top: 6.8em;
-left: 1.5em;
+left: 15px;
 height: 10px;
 width: 35px;
 border-radius: 10px;
@@ -147,8 +147,44 @@ border-radius: 10px;
 .circulo2{
 background-color: black;
 top: 6.8em;
-left: 5em;
+right: 20px;
 height: 10px;
 width: 35px;
 border-radius: 10px;
+}
+
+
+.botones{
+position: absolute;
+height: 30px;
+width: 30px;
+background-color: red;
+border: 4px solid white;
+border-radius: 50%;
+}
+
+
+.boton1{
+right: 45px;
+bottom: 3em;
+}
+
+.boton2{
+bottom: 3em;
+right: 115px;
+}
+
+.A{
+position: absolute;
+right: 60px;
+font-size: 15px;
+color: white;
+}
+
+.B{
+position: absolute;
+right: 130px;
+
+font-size: 15px;
+color: white;
 }
