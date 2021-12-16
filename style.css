@@ -4,8 +4,17 @@ top: 0;
 left: 0;
 right: 0;
 bottom: 0;
+margin: auto;
 background-color: white;
+margin-top: 10cm;
+}
 
+
+.mando {
+
+display: flex;
+justify-content: center;
+align-items: center;
 }
 .rectangulo-1{
 
@@ -187,4 +196,12 @@ right: 130px;
 
 font-size: 15px;
 color: white;
+}
+.NINTENDO{
+position: absolute;
+top: 50px;
+right: 50px;
+font-size: 15px;
+color: white;
+
 }
